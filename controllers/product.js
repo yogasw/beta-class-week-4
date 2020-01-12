@@ -1,7 +1,7 @@
 'use strict'
 const axios = require('axios')
 exports.home = async (req, res) => {
-    let dataProduct = []
+     let dataProduct = []
 
     await axios.get("http://localhost:10000/api/getAllData")
         .then(response => {
@@ -11,7 +11,7 @@ exports.home = async (req, res) => {
             dataProduct = []
         })
 
-    res.render('home', {
+    await res.render('home', {
         'data': dataProduct
     });
 }

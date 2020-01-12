@@ -20,3 +20,4 @@ routeApi(app)
 app.listen(10000, () => {
     console.log("server started")
 });
+

@@ -5,11 +5,11 @@ const connection = require('../config/database')
 exports.getData = (req, res) => {
     connection.query(`select * from product`, (error, rows, field) => {
         let data = {
-            status :202,
+            status :200,
             message :'list data product',
             result : rows
         }
-        res.status(202).json(data)
+        res.status(200).json(data)
     })
 }
 

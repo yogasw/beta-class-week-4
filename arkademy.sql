@@ -1,0 +1,12 @@
+INSERT INTO arkademy.category (id, name) VALUES (1, 'makanan');
+INSERT INTO arkademy.category (id, name) VALUES (2, 'minuman');
+INSERT INTO arkademy.category (id, name) VALUES (3, 'test');
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (3, 'saos', 3000, 1);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (4, 'roti', 2, 1);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (5, '123', 1234, 2);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (6, '123', 1234, 2);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (7, '123', 123, null);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (8, '12321', 121212, null);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (9, '12321', 121212, null);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (10, '333', 34, null);
+INSERT INTO arkademy.product (id, name, price, id_category) VALUES (11, '234', 22, 3);
